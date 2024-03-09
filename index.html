@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AyurMed - Your Ayurvedic Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <header> <img rel="logo" src="logo-bnw.png"  height="60"> </header>
+
+    <main>
+     <section id="search-section">
+         <label for="disease-input">Enter Disease/Pharmacological Property:</label>
+         <input type="text" id="disease-input" placeholder="Type here..." oninput="showSuggestions()">
+         <ul id="suggestions-list"></ul>
+         <button onclick="searchMedicine()" onkeydown="handleKeyPress(event)">Search</button> 
+         <button onclick="printResults()">Print</button>
+         <div id="output"></div>
+         <ul id="medicine-list"></ul>
+     </section>
+
+
+        <section id="result-section">
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AyurMed. All rights reserved.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
