@@ -25,7 +25,7 @@ function printResults() {
 
 function handleKeyPress(event) {
     if (event.key === 'Enter') {
-        const values = ['Liquorice (यष्टिमधु) - मुलेठी', 'Ginger (अदरक)', 'Honey (शहद)', 'Turmeric (हल्दी)', 'Ajwain (अजवाइन)', 'Amla (आँवला)', 'Giloy (गिलोय)', 'Cinnamomum (दालचीनी)', 'Clove (लौंग)'];
+        const values = ['Liquorice (यष्टिमधु) - मुलेठी        ---------->     2 g', 'Ginger (अदरक) ---------->     3-4 g', 'Honey (शहद) ---------->  10-12 g', 'Turmeric (हल्दी) ----------> 500 mg', 'Ajwain (अजवाइन) ----------> ¼ teaspoon', 'Amla (आँवला) ----------> 20 g', 'Giloy (गिलोय) ----------> 10 g', 'Cinnamomum (दालचीनी) ----------> 4 g', 'Clove (लौंग) ----------> 10 g'];
 
         const randomValues = [];
 
